@@ -10,7 +10,7 @@ class UserController {
   static async store(req, res) {
     const { email } = req.body;
     const userExistis = await User.findOne({
-      where: { email}
+      where: { email },
     });
 
     if(userExistis) {
