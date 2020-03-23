@@ -23,6 +23,7 @@ module.exports = {
     'prettier/prettier': 'error',
     'import/prefer-default-export': 'off',
     'camelcase': 'off',
+    'no-param-reassign': 'off'
   },
 };
 
