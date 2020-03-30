@@ -40,7 +40,7 @@ module.exports = {
 
       complement: {
         type: Sequelize.STRING,
-        defaultValue: null
+        defaultValue: null,
       },
 
       created_at: {

@@ -2,7 +2,7 @@ import Sequelize from 'sequelize';
 
 import configDatabase from '../config/database';
 import User from '../app/models/User';
-import Recipients from '../app/models/Recipient'
+import Recipients from '../app/models/Recipient';
 
 class ConnectionDB {
   constructor() {

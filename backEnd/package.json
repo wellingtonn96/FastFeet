@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon src/Server.js"
+    "dev": "nodemon src/Server.js",
+
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jest": "^25.2.4",
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.18.2",
     "pg-hstore": "^2.3.3",
@@ -28,14 +31,17 @@
     "yup": "^0.28.3"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "faker": "^4.1.0",
     "nodemon": "^2.0.2",
     "prettier": "^1.19.1",
-    "sequelize-cli": "^5.5.1"
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
   }
 }
